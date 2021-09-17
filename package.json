@@ -1,0 +1,54 @@
+{
+  "name": "ewtelecom",
+  "version": "1.2.0",
+  "description": "Web App for EW Telecom",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build && export",
+    "start": "next start -p 8888",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run start"
+  },
+  "repository": "none",
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "reactjs",
+    "npx",
+    "material",
+    "material-design",
+    "material-kit",
+    "material-kit-react",
+    "next-material-kit"
+  ],
+  "author": "GuZ DeV",
+  "license": "ISC",
+  "bugs": {
+    "email": "gustavosirkis@gmail.com"
+  },
+  "homepage": "https://ewtelecom.com.br/new",
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "all": "^0.0.0",
+    "classnames": "2.3.1",
+    "moment": "2.29.1",
+    "next": "10.2.0",
+    "next-compose-plugins": "2.2.1",
+    "next-images": "1.7.0",
+    "nextjs-redirect": "5.0.2",
+    "node-sass": "5.0.0",
+    "nouislider": "15.1.0",
+    "path": "0.12.7",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-datetime": "3.0.4",
+    "react-dom": "17.0.2",
+    "react-slick": "0.28.1",
+    "styled-components": "5.3.0",
+    "webpack": "4.46.0"
+  }
+}

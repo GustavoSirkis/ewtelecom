@@ -1,0 +1,11 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/ewteleco/public_html/new"
+PassengerBaseURI "/new"
+PassengerNodejs "/home/ewteleco/nodevenv/public_html/new/14/bin/node"
+PassengerAppType node
+PassengerStartupFile ./node_modules/.bin/next
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
